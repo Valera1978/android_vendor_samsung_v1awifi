@@ -81,7 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
     vendor/samsung/v1awifi/proprietary/lib/libarcsoft_skin_soften.so:system/lib/libarcsoft_skin_soften.so \
     vendor/samsung/v1awifi/proprietary/lib/libbcc.so:system/lib/libbcc.so \
-    vendor/samsung/v1awifi/proprietary/lib/libbcc.sha1.so:system/lib/libbcc.sha1.so \
+    vendor/samsung/v1awifi/proprietary/lib/libc.so:system/lib/libc.so \
     vendor/samsung/v1awifi/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/v1awifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/v1awifi/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
@@ -162,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/samsung/v1awifi/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
     vendor/samsung/v1awifi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/samsung/v1awifi/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so\
     vendor/samsung/v1awifi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/v1awifi/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/v1awifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
