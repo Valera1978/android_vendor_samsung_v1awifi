@@ -80,32 +80,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/lib/libarcsoft_picaction_manual.so:system/lib/libarcsoft_picaction_manual.so \
     vendor/samsung/v1awifi/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
     vendor/samsung/v1awifi/proprietary/lib/libarcsoft_skin_soften.so:system/lib/libarcsoft_skin_soften.so \
-    vendor/samsung/v1awifi/proprietary/lib/libbcc.so:system/lib/libbcc.so \
-    vendor/samsung/v1awifi/proprietary/lib/libc.so:system/lib/libc.so \
+    vendor/samsung/v1awifi/proprietary/lib/lib_SA_GoogleFX_ver119k.so:system/lib/lib_SA_GoogleFX_ver119k.so \
+    vendor/samsung/v1awifi/proprietary/lib/lib_SoundAlive_play_vol_ver125e.so:system/lib/lib_SoundAlive_play_vol_ver125e.so \
+    vendor/samsung/v1awifi/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
     vendor/samsung/v1awifi/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/v1awifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/v1awifi/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
     vendor/samsung/v1awifi/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so  \
     vendor/samsung/v1awifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenBase.so:system/lib/libSPenBase.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenBeautify.so:system/lib/libSPenBeautify.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenBrush.so:system/lib/libSPenBrush.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenChineseBrush.so:system/lib/libSPenChineseBrush.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenEngine.so:system/lib/libSPenEngine.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenHSV.so:system/lib/libSPenHSV.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenImageFilterLibs.so:system/lib/libSPenImageFilterLibs.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenInit.so:system/lib/libSPenInit.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenInkPen.so:system/lib/libSPenInkPen.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenMagicPen.so:system/lib/libSPenMagicPen.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenMarker.so:system/lib/libSPenMarker.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenModel.so:system/lib/libSPenModel.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenNativePen.so:system/lib/libSPenNativePen.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenPencil.so:system/lib/libSPenPencil.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenPluginFW.so:system/lib/libSPenPluginFW.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenScreenCodecDecoder.so:system/lib/libSPenScreenCodecDecoder.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenSkia.so:system/lib/libSPenSkia.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenVIRecognition.so:system/lib/libSPenVIRecognition.so \
-    vendor/samsung/v1awifi/proprietary/lib/libSPenVITextAll.so:system/lib/libSPenVITextAll.so \
     vendor/samsung/v1awifi/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/v1awifi/proprietary/lib/libvdis.so:system/lib/libvdis.so \
     vendor/samsung/v1awifi/proprietary/lib/libwvdrm_L1.so:system/lib/libwvdrm_L1.so \
@@ -162,7 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/samsung/v1awifi/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
     vendor/samsung/v1awifi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/samsung/v1awifi/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so\
     vendor/samsung/v1awifi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/v1awifi/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/v1awifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
