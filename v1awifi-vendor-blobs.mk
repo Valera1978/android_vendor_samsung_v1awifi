@@ -27,12 +27,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffff000000000000000000000008.tlbin:system/app/mcRegistry/ffffffff000000000000000000000008.tlbin \
     vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffff000000000000000000000009.tlbin:system/app/mcRegistry/ffffffff000000000000000000000009.tlbin \
     vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
-    vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
     vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
     vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
     vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
     vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffff000000000000000000000010.tlbin:system/app/mcRegistry/ffffffff000000000000000000000010.tlbin \
     vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffff000000000000000000000011.tlbin:system/app/mcRegistry/ffffffff000000000000000000000011.tlbin \
+    vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffff000000000000000000000012.tlbin:system/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
+    vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffff000000000000000000000013.tlbin:system/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
+    vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
     vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/v1awifi/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/v1awifi/proprietary/bin/drmserver.samsung:system/bin/drmserver.samsung \
@@ -102,6 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
     vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
     vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+    vendor/samsung/v1awifi/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/v1awifi/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
     vendor/samsung/v1awifi/proprietary/media/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
     vendor/samsung/v1awifi/proprietary/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
@@ -135,11 +138,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/v1awifi/proprietary/vendor/firmware/srp_cga.bin:system/vendor/firmware/srp_cga.bin \
     vendor/samsung/v1awifi/proprietary/vendor/firmware/srp_data.bin:system/vendor/firmware/srp_data.bin \
     vendor/samsung/v1awifi/proprietary/vendor/firmware/srp_vliw.bin:system/vendor/firmware/srp_vliw.bin \
-    vendor/samsung/v1awifi/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
-    vendor/samsung/v1awifi/proprietary/vendor/firmware/bcm4335_A0.hcd:system/vendor/firmware/bcm4335_A0.hcd \
-    vendor/samsung/v1awifi/proprietary/vendor/firmware/bcm4350.hcd:system/vendor/firmware/bcm4350.hcd \
-    vendor/samsung/v1awifi/proprietary/vendor/firmware/bcm4350_A0.hcd:system/vendor/firmware/bcm4350_A0.hcd \
-    vendor/samsung/v1awifi/proprietary/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0184.0260_V1_3G_ORC.hcd:system/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0184.0260_V1_3G_ORC.hcd \
+    vendor/samsung/v1awifi/proprietary/vendor/firmware/bcm4335_V0105.0541.hcd:system/vendor/firmware/bcm4335_V0105.0541.hcd \
+    vendor/samsung/v1awifi/proprietary/vendor/firmware/bcm4350_V0301.0591.hcd:system/vendor/firmware/bcm4350_V0301.0591.hcd \
     vendor/samsung/v1awifi/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc \
     vendor/samsung/v1awifi/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/samsung/v1awifi/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
