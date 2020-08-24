@@ -1,5 +1,5 @@
 # Sample variables file for Samsung BCM4354WLBGA iPA, eLNA board with SDIO for production package
-# V1-wifi - 2013.01.05 for mass production
+# V1-LTE Rev0.9 - 2014. 01. 05
 NVRAMRev=$Rev: 373428 $
 sromrev=11
 boardrev=0x1101
@@ -9,7 +9,7 @@ boardflags2=0x00802000
 boardflags3=0x48000109
 
 macaddr=00:90:4c:16:70:01
-ccode=00
+ccode=GB
 regrev=6
 antswitch=0
 pdgain5g=4
@@ -77,26 +77,22 @@ tempthresh=255
 tempoffset=255
 rawtempsense=0x1ff
 
+## Rev0.9 TSSI Calibration -2013.12.02
+pa2ga0=0xff71,0x154d,0xfd81
+pa2ga1=0xff86,0x175a,0xfd63
+pa5ga0=0xff3e,0x16aa,0xfd35,0xff23,0x13cb,0xfd84,0xff67,0x180d,0xfd36,0xff5f,0x1763,0xfd33
+pa5ga1=0xff29,0x1656,0xfd23,0xff50,0x17e5,0xfd21,0xff35,0x1647,0xfd3d,0xff35,0x167e,0xfd26
 
-## TSSI Calibration - Rev1.1, 2014.01.06
-pa2ga0=0xff68,0x16c9,0xfd5d
-pa2ga1=0xff81,0x1732,0xfd68
-#pa5ga0=0xff36,0x16de,0xfd2b,0xff36,0x16b2,0xfd31,0xff3d,0x16d4,0xfd30,0xff3c,0x169f,0xfd34
-pa5ga0=0xff3f,0x1586,0xfd5e,0xff38,0x163f,0xfd3c,0xff3e,0x16e9,0xfd33,0xff3e,0x16cd,0xfd2e
-pa5ga1=0xff41,0x1689,0xfd34,0xff41,0x1699,0xfd35,0xff3b,0x163e,0xfd3c,0xff47,0x1697,0xfd38
-
-
-
-## V1-3G Target Power
+## V1-LTE Target Power
 ## 2G: 11b-16.5dBm/11g-16/14.5dBm/11n-15/13dBm/11ac-15/12dBm
 ## 5G: 11a-16/14dBm/11n-16/13dBm/11ac-16/12dBm
-maxp2ga0=70
+maxp2ga0=76
 maxp5ga0=76,76,76,76
-maxp2ga1=70
+maxp2ga1=76
 maxp5ga1=76,76,76,76
 subband5gver=0x4
-pdoffsetcckma0=0x3
-pdoffsetcckma1=0x6
+pdoffsetcckma0=0x7
+pdoffsetcckma1=0x4
 pdoffset40ma0=0x0000
 pdoffset80ma0=0x0000
 pdoffset40ma1=0x0000
@@ -109,17 +105,17 @@ ofdmlrbw202gpo=0x0033
 mcsbw202gpo=0xbb999955
 mcsbw402gpo=0xbb999955
 
-mcsbw205glpo=0xbb977744
-mcsbw405glpo=0xddb99966
+mcsbw205glpo=0xbb977733
+mcsbw405glpo=0xddb99955
 mcsbw805glpo=0xffdbbb77
 
-mcsbw205gmpo=0xbb977744
-mcsbw405gmpo=0xddb99966
+mcsbw205gmpo=0xbb977733
+mcsbw405gmpo=0xddb99955
 mcsbw805gmpo=0xffdbbb77
 
 
-mcsbw205ghpo=0xbb977744
-mcsbw405ghpo=0xddb99966
+mcsbw205ghpo=0xbb977733
+mcsbw405ghpo=0xddb99955
 mcsbw805ghpo=0xffdbbb77
 
 mcslr5glpo=0x0000
@@ -144,7 +140,9 @@ dot11agduphrpo=0x0
 dot11agduplrpo=0x0
 
 #phycal_tempdelta=255
+#changes periodic calibration for the temperature 
 phycal_tempdelta=25
+
 temps_period=15
 temps_hysteresis=15
 
@@ -157,15 +155,14 @@ rssicorrnorm_c1=3,3
 rssicorrnorm5g_c0=1,2,3,1,2,2,0,1,1,1,2,2
 rssicorrnorm5g_c1=1,2,3,0,2,2,1,2,3,3,3,4
 
-
 swctrlmap_5g=0x00000202,0x05050000,0x04040000,0x000000,0x047
 swctrlmap_2g=0x0000140c,0x28300000,0x08200000,0x803020,0x0ff
 
 cckdigfilttype=1
 
 ## 2G TX power compensation in room temp
-#powoffs2gtna0=2,1,1,1,1,1,0,0,0,0,1,1,2,0
-#powoffs2gtna1=2,2,2,2,2,1,1,0,-1,-1,-1,0,1,0
+powoffs2gtna0=2,1,1,1,1,1,0,0,0,0,1,1,2,0
+powoffs2gtna1=2,2,2,2,2,1,1,0,-1,-1,-1,0,1,0
 
 #BT coex
 btc_mode=1
@@ -173,5 +170,3 @@ btc_mode=1
 btc_params84=7000
 btc_params10=20000
 btc_params8=45000
-
-
